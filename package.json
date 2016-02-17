@@ -1,0 +1,29 @@
+{
+  "name": "backbone-safesync",
+  "version": "0.0.1",
+  "description": "A wrapper around Backbone.sync to prevent model and collection request race conditions.",
+  "main": "backbone-safesync.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "phantomjs test/runner.js test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdonaldson10/backbone-safesync.git"
+  },
+  "author": "Andrew McCloud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdonaldson10/backbone-safesync/issues"
+  },
+  "homepage": "https://github.com/jdonaldson10/backbone-safesync#readme",
+  "devDependencies": {
+    "backbone": "1.0.0",
+    "jquery": "^2.2.0",
+    "phantomjs-prebuilt": "^2.1.4",
+    "qunitjs": "^1.21.0",
+    "underscore": "1.8.3"
+  }
+}
